@@ -1,0 +1,44 @@
+:global(body) {
+  padding-top: 100px;
+  background-color: #e7ecf2;
+}
+
+.profile {
+  width: 350px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border: 2px solid #dbe3ec;
+  border-radius: 3px;
+
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.description {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.name {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.tag {
+  margin-bottom: 0;
+  color: #b5bcc4;
+}
+
+.location {
+  margin-bottom: 50px;
+  color: #b5bcc4;
+}

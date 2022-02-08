@@ -1,0 +1,27 @@
+.stats {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 3);
+  height: 100px;
+  background-color: #f3f6f9;
+  border: 1px solid #dbe3ec;
+}
+
+.label {
+  margin-bottom: 10px;
+  color: #768696;
+
+}
+
+.quantity {
+  font-weight: 700;
+}
